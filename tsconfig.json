@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "dependency1": ["dependency1/src/main"],
+      "server": ["server/src/main"]
+    },
+    "esModuleInterop": true,
+
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node"
+  }
+}

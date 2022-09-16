@@ -1,0 +1,13 @@
+{
+  "name": "lerna-typescript-import-esm",
+  "version": "1.0.0",
+  "author": "Buntel",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^5.5.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
